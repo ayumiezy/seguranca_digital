@@ -108,6 +108,9 @@ body{
     font-size: 24pz;
 }
 
+label{
+    font-size: 20px;
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
