@@ -1,4 +1,8 @@
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+}
 body{
-    color: white;
-    background-color: #00162E;
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
 }
