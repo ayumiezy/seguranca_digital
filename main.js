@@ -24,8 +24,14 @@ function aumentaTamanho(){
 }
 
 const campoSenha = document.querySelector('#campo-senha');
+const checkbox = document.querySelectorAll(.checkbox);
+
+console.log(checkbox[0].checked);
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
+const numeros = '0123456789';
+const simbolos = '!@%*?';
 
 function geraSenha(){
     let senha = '';
@@ -36,3 +42,4 @@ function geraSenha(){
     }
     campoSenha.value = senha;
 }
+
